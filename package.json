@@ -1,1 +1,20 @@
-{"name":"motivational-quote-agent","version":"1.0.0","description":"An agent that sends motivational quotes using Claude","main":"motivational-agent.js","scripts":{"start":"npx ts-node motivational-agent.ts","build":"tsc"},"dependencies":{"@anthropic-ai/sdk":"^0.39.0","dotenv":"^16.3.1","ts-node":"^10.9.1"},"devDependencies":{"@types/node":"^20.8.2","@types/nodemailer":"^6.4.13","typescript":"^5.8.2"}}
+{
+  "name": "dummy-agent",
+  "version": "1.0.0",
+  "description": "A simple agent that forwards user input to Claude",
+  "main": "dummy-agent.js",
+  "scripts": {
+    "start": "npx ts-node dummy-agent.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "dotenv": "^16.3.1",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.2",
+    "@types/nodemailer": "^6.4.13",
+    "typescript": "^5.8.2"
+  }
+}
